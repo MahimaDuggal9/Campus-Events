@@ -1,0 +1,30 @@
+.container{
+  padding: 10vw;
+  /* background-color: var(--bg-color); */
+  background-image: url('https://wallpapers.com/images/featured/baby-blue-e7l0r9mzdruea4w5.jpg');
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.find-events-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.filter-event-display{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media (max-width: 1297px){
+  .container{
+    justify-content: center;
+  }
+}
